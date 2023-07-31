@@ -1,4 +1,114 @@
 .second-screen{
     height: 100vh;
-    background-img:url('../photo/background-img2.svg');
+    background-image:url('../photo/background-img2.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left bottom;
+
+    padding: 0 5%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-screen-presents{
+    width:50%;
+    height: 50%;
+}
+.second-screen-presents-title{
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'Risque';
+    color:#ffff
+}
+.second-screen-presents-text{
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Risque';
+    color:#ffff;
+
+    margin: 5% 0;
+}
+.second-screen-presents-buttons{
+    display: flex;
+    justify-content: space-between;
+    height: 33%;
+}
+.second-screen-presents-button{
+    width: 20%;
+    height: 100%;
+    border: 3px #ffff solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sock{
+    background-image: url("../photo/new-year-sock.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffff;
+}.sock:hover{
+     background-color: inherit;
+ }
+.cap{
+    background-image: url("../photo/caps-2.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffff;
+}.cap:hover{
+     background-color: inherit;
+ }
+.bag{
+    background-image: url("../photo/new-year-bag.svg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffff;
+}.bag:hover{
+     background-color: inherit;
+ }
+.second-screen-description{
+    width: 40%;
+    height: 50%;
+    border: 2px #ffff solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.second-screen-description-sock{
+    display: flex;
+    width:100%;
+    height: 90%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.block{
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.second-screen-description-sock-title{
+    font-size: 42px;
+    font-weight: 400;
+    font-family: 'Risque';
+    color:#ffff;
+}
+.second-screen-description-sock-text{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color:#ffff;
+
+    margin-top: 5%;
+}
+.second-screen-description-sock-img{
+    width:40%;
+    height: 100%;
+    background-image: url("../photo/new-year-sock.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+
 }

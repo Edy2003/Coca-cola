@@ -1,0 +1,32 @@
+.third-screen{
+    height: 100vh;
+    background-image:url('../photo/background-img3.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left bottom;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.third-screen-container{
+    height:55%;
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px #ffff solid;
+    border-radius: 20px;
+    margin-left:5%;
+}
+.third-screen-container-title{
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'Risque';
+    color:#ffff;
+}
+.third-screen-container-form{
+    height:60%;
+    border: 3px #000000 solid;
+    border-radius: 20px;
+}

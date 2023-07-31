@@ -1,17 +1,23 @@
 import React from 'react';
-import ScreenOne from "./Components/Screen1";
-import Screen2 from "./Components/Screen2";
 import Snowfall from 'react-snowfall'
 
-import './App.css';
+import ScreenOne from "./Components/Screen1";
 import ScreenTwo from "./Components/Screen2";
+import ScreenThree from "./Components/Screen3";
+
+import './App.css';
+
 
 function App() {
   return (
       <>
         <ScreenOne/>
         <ScreenTwo/>
-        <Snowfall />
+        <ScreenThree/>
+        <Snowfall style={{
+            height: '300vh',
+        }}
+        />
       </>
   );
 }
