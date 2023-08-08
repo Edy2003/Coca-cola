@@ -1,2 +1,9 @@
+.screen{
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: normal;
+}
+.screen-area{
+    scroll-snap-align:start;
+}
 
 
