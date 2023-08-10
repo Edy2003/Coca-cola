@@ -34,23 +34,100 @@ p{
 }
 .first-screen-top-bar-menu{
 }
+.activated-menu{
+    position: fixed;
+    align-items: center;
+    top:20%;
+    right:20%;
+    display:flex;
+    flex-direction: column;
+    z-index: 3;
+    cursor: pointer;
+
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Risque';
+    color:#ffff;
+
+    animation:fadeIn 1s ease-in;
+}.activated-menu a:hover{
+    text-shadow:1px 1px white ;
+ }
+.activated-menu .top-bar-menu-links{
+    margin-top: 15px;
+}
+@keyframes fadeIn {
+    0%{opacity: 0}
+    40%{opacity: 0}
+    100%{opacity: 1}
+}
 .top-bar-menu-links{
     margin-left: 30%;
     color:white;
     cursor: pointer;
 }
 .first-screen-top-bar-burger{
+    position: fixed;
+    top:5%;
+    right:5%;
     width: 50px;
     height: 50px;
-    border-radius: 50px 10px 50px 50px;;
+    border-radius: 50px 10px 50px 50px;
     background-color: red;
     cursor:pointer;
+    transition: 1s;
 }
-.first-screen-top-bar-burger:active {
-    position: absolute;
-    background-color: #ffffff;
+.first-screen-top-bar-burger-animation{
+    position: fixed;
+    top:5%;
+    right:5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 10px 50px 50px;
+    background-color: red;
+    cursor:pointer;
+    transition: 1s;
+}
+ .activated-burger {
+     position: fixed;
+     right: -40%;
+     top: -80%;
+     width: 100%;
+     height: 200%;
+     border-radius:50%;
+     transition:  1s ease-in-out;
+     background-color: red;
+     z-index: 2;
  }
-
+.lines{
+    position: fixed;
+    top:6.5%;
+    right:5.5%;
+    width:2%;
+    height: 2px;
+    background-color: white;
+    transition: 1s;
+}
+.first-screen-top-bar-burger-animation div:nth-child(2){
+    margin: 10px 0px;
+    height: 3px;
+}
+.first-screen-top-bar-burger-animation div:nth-child(3){
+    margin: 20px 0px;
+}
+.activated-burger-lines{
+    position: fixed;
+    top:6.5%;
+    right:5.5%;
+    width:2%;
+    height: 2px;
+    background-color: white;
+    transform: rotate(50deg);
+    transition: 1s;
+}
+.activated-burger-lines:nth-child(2){
+    transform: rotate(-50deg);
+}
 /*-----------Block------------*/
 
 .first-screen-block{
