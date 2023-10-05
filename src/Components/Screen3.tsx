@@ -19,6 +19,7 @@ function ScreenThree (){
                         </div>
                         <input className='third-screen-container-form-input' placeholder='Email' type='email'/>
                         <input className='third-screen-container-form-input wish' placeholder='Your wish' type='text'/>
+                        <h1>im on test</h1>
                     </form>
                 </div>
             </div>
