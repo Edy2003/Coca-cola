@@ -19,7 +19,11 @@ function ScreenThree (){
                         </div>
                         <input className='third-screen-container-form-input' placeholder='Email' type='email'/>
                         <input className='third-screen-container-form-input wish' placeholder='Your wish' type='text'/>
+<<<<<<< Updated upstream
                         <h1>im on test</h1>
+=======
+                        <h1>on master</h1>
+>>>>>>> Stashed changes
                     </form>
                 </div>
             </div>
