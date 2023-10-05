@@ -20,7 +20,7 @@ function ScreenThree (){
                         <input className='third-screen-container-form-input' placeholder='Email' type='email'/>
                         <input className='third-screen-container-form-input wish' placeholder='Your wish' type='text'/>
                     </form>
-                    <h1>test</h1>
+                    <h1>test 2</h1>
                 </div>
             </div>
         </>
