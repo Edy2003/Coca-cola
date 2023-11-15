@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Coca-cola/static/css/main.e7e7446c.css",
+    "main.js": "/Coca-cola/static/js/main.e0399eae.js",
+    "static/js/787.e202747d.chunk.js": "/Coca-cola/static/js/787.e202747d.chunk.js",
+    "static/media/background-img3.svg": "/Coca-cola/static/media/background-img3.84fda1e08aae7a359022.svg",
+    "static/media/caps-2.svg": "/Coca-cola/static/media/caps-2.9b4fe9478e7511a07993.svg",
+    "static/media/new-year-sock.svg": "/Coca-cola/static/media/new-year-sock.0adae41ea807744d514b.svg",
+    "static/media/dedcoca 1.svg": "/Coca-cola/static/media/dedcoca 1.f96e0e32281ab26f0c0d.svg",
+    "static/media/background-img2.svg": "/Coca-cola/static/media/background-img2.60e2a3e83ec09c8f0b4a.svg",
+    "static/media/new-year-bag.svg": "/Coca-cola/static/media/new-year-bag.7876b67056400ce12ef4.svg",
+    "static/media/Coca-Cola_logo_white 1.png": "/Coca-cola/static/media/Coca-Cola_logo_white 1.0d12dbe460e42bba344c.png",
+    "index.html": "/Coca-cola/index.html",
+    "main.e7e7446c.css.map": "/Coca-cola/static/css/main.e7e7446c.css.map",
+    "main.e0399eae.js.map": "/Coca-cola/static/js/main.e0399eae.js.map",
+    "787.e202747d.chunk.js.map": "/Coca-cola/static/js/787.e202747d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7e7446c.css",
+    "static/js/main.e0399eae.js"
+  ]
+}
