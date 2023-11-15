@@ -12,15 +12,14 @@ function ScreenThree (){
                     <form className='third-screen-container-form'>
                         <input className='third-screen-container-form-input' placeholder='Name' type='text'/>
                         <input className='third-screen-container-form-input' placeholder='Phone' type='tel'/>
-                        <div className='dropbox'>
-                            <p className='dropbox-menu'>{gender}</p>
-                            <p className='dropbox-menu' onClick={()=>setGender('Male')}> Male</p>
-                            <p className='dropbox-menu' onClick={()=>setGender('Female')}>Female</p>
-                        </div>
+                        <select className='dropbox'>
+                            <option className='dropbox-menu'>{gender}</option>
+                            <option className='dropbox-menu' onClick={()=>setGender('Male')}> Male</option>
+                            <option className='dropbox-menu' onClick={()=>setGender('Female')}>Female</option>
+                        </select>
                         <input className='third-screen-container-form-input' placeholder='Email' type='email'/>
                         <input className='third-screen-container-form-input wish' placeholder='Your wish' type='text'/>
                     </form>
-                    <h1>test 2</h1>
                 </div>
             </div>
         </>
